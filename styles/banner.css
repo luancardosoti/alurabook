@@ -30,7 +30,7 @@
   color: var(--white);
   font-weight: 400; 
   text-align: center;
-  background: url("/img/Pesquisa.svg") no-repeat;
+  background: url("../img/Pesquisa.svg") no-repeat;
   background-position: 0em;
 }
 
