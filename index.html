@@ -242,7 +242,7 @@
 			</li>
 		</ul>
 
-		<ul class="list-footer">
+		<ul class="list-footer">	
 			<li class="list-footer__title">Educação Online</li>
 			<li class="list-footer__item">
 				<img src="img/Alura.png" alt="Logo da alura">
@@ -313,9 +313,13 @@
 			spaceBetween: 16,
 			slidesPerView: 3,
 			pagination: {
-			el: '.swiper-pagination',
-			type: 'bullets',
-		},
+				el: '.swiper-pagination',
+				type: 'bullets',
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
 		});
 	</script>
 </body>
